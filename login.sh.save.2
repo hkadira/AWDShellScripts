@@ -1,0 +1,18 @@
+echo "=================================="
+echo "		  User Login		"
+echo "=================================="
+
+#read -p "Enter user name: " user
+#read -p "Enter password:  " password
+
+
+doLogin(){
+if [ "$user" = "Neo" ] && [ "$password" = "123" ]
+then	
+	echo "success"
+else 
+	echo "fail"
+fi
+}
+
+doLogin $1 $2
