@@ -2,3 +2,4 @@ Jam 3
 Buscuit 1
 Cocacola 10
 Chocalate 20
+Banana 3
